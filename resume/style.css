@@ -8,6 +8,26 @@ body {
     background-color: #f4f4f9;
     color: #333;
   }
+  nav {
+    display: flex;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: oklch(80% 3% 200);
+  }
+  a {
+    flex: 1;
+    text-decoration: none;
+    color:inherit;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 1ch;
+  }
+  a.current {
+    border-bottom-width: .4em;
+    border-bottom-style: solid;
+    border-bottom-color: oklch(40% 40% 600);
+    margin-bottom: 0ch;
+  }
   h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2C3E50;
