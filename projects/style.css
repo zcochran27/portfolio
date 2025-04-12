@@ -37,3 +37,21 @@ nav {
     border-bottom: 2px solid var(--color-accent);
     margin-bottom: 0;
   }
+  .projects {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  }
+  .projects article {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    text-wrap: balance;
+    margin: 0; 
+  }
+  
+  h1 {
+    font-size: 400%;
+  }
