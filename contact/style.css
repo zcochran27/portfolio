@@ -37,3 +37,15 @@ nav {
     border-bottom: 2px solid var(--color-accent);
     margin-bottom: 0;
   }
+  form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+  }
+  label,button {
+    grid-column: 1 / -1;
+  }
+  label {
+    display: grid;
+    grid-template-columns: subgrid;
+  }
