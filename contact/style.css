@@ -35,4 +35,5 @@ nav {
   nav a:hover {
     text-decoration: underline;
     border-bottom: 2px solid var(--color-accent);
+    margin-bottom: 0;
   }
