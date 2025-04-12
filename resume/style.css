@@ -40,19 +40,20 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2C3E50;
     margin-bottom: 10px;
+    line-height: 1.1;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 400%;
   }
   
   h2 {
-    font-size: 1.8rem;
+    font-size: 200%;
   }
   
   h3 {
-    font-size: 1.4rem;
+    font-size: 150%;
   }
-  a {
+  h2 a {
     color: #3498db;
     text-decoration: none;
   }
