@@ -1,3 +1,17 @@
+:root {
+    --color-accent: oklch(55% 90% 5);
+    accent-color: var(--color-accent);
+  }
+body {
+    /* Set line height to 1.5 times the font size
+         and use the OS’s UI font as the website font
+       */
+    font: 100%/1.5 system-ui;
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: 5ch;
+    accent-color: var(--color-accent);
+  }
 nav {
     display: flex;
     border-bottom-width: 1px;
@@ -17,4 +31,8 @@ nav {
     border-bottom-style: solid;
     border-bottom-color: oklch(40% 40% 600);
     margin-bottom: 0ch;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    border-bottom: 2px solid var(--color-accent);
   }
