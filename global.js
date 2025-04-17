@@ -31,8 +31,8 @@ for (let p of pages) {
     // if (a.pathname=== "/zcochran27" || a.pathname === "https://github.com/zcochran27") {
     //     a.target = "_blank";
     // }
-    if (a.host !== location.host) {
-        a.target = "_blank";
-    }
+    // if (a.host !== location.host) {
+    //     a.target = "_blank";
+    // }
     nav.append(a);
   }
