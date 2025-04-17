@@ -27,7 +27,7 @@ for (let p of pages) {
     let url = p.url;
     let title = p.title;
     url = !url.startsWith('http') ? BASE_PATH + url : url;
-    console.log("url")
+    console.log(url)
     console.log("")
     let a = document.createElement('a');
     a.href = url;
