@@ -44,7 +44,7 @@ for (let p of pages) {
         <option value="dark">Dark</option>
       </select>
     </label>
-  `
+    `
   );
   
   let select = document.querySelector('.color-scheme select');
