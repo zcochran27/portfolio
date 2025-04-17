@@ -1,4 +1,4 @@
-console.log('IT’S ALIVE!');
+console.log("IT'S ALIVE!");
 
 function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
@@ -28,12 +28,6 @@ for (let p of pages) {
     if (a.host === location.host && a.pathname === location.pathname) {
         a.classList.add('current');
     }
-    // if (a.pathname=== "/zcochran27" || a.pathname === "https://github.com/zcochran27") {
-    //     a.target = "_blank";
-    // }
-    // if (a.host !== location.host) {
-    //     a.target = "_blank";
-    // }
     nav.append(a);
   }
 
@@ -51,7 +45,6 @@ for (let p of pages) {
   `
   );
   
-  // Step 4.4: Make the switcher actually change theme
   let select = document.querySelector('.color-scheme select');
   
   select.addEventListener('input', function (event) {
