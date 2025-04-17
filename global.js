@@ -5,10 +5,10 @@ function $$(selector, context = document) {
 }
 
 let pages = [
-    { url: 'index.html', title: 'Home' },
-    { url: 'projects/index.html', title: 'Projects' },
-    { url: 'contact/index.html', title: 'Contact' },
-    { url: 'resume/index.html', title: 'Resume'},
+    { url: '', title: 'Home' },
+    { url: 'projects/', title: 'Projects' },
+    { url: 'contacts/', title: 'Contact' },
+    { url: 'resume/', title: 'Resume'},
     { url: 'https://github.com/zcochran27', title: 'GitHub' }];
 let nav = document.createElement('nav');
 document.body.prepend(nav);
