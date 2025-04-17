@@ -10,14 +10,14 @@ let pages = [
     { url: 'contact/index.html', title: 'Contact' },
     { url: 'resume/index.html', title: 'Resume'},
     { url: 'https://github.com/zcochran27', title: 'GitHub' }];
-
+console.log("still working")
 let nav = document.createElement('nav');
 document.body.prepend(nav);
 
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"
   : "/portfolio/"; 
-
+  console.log("still working")
 for (let p of pages) {
     let url = p.url;
     let title = p.title;
