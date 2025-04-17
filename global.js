@@ -27,6 +27,10 @@ for (let p of pages) {
     a.textContent = title;
     if (a.host === location.host && a.pathname === location.pathname) {
         a.classList.add('current');
-      }
+    }
+    console.log(a.pathname)
+    if (a.pathname=== "/zcochran27" || a.pathname === "https://github.com/zcochran27") {
+        a.target = "_blank"
+    }
     nav.append(a);
   }
