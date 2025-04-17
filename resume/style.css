@@ -17,10 +17,11 @@ body {
     accent-color: var(--color-accent);
   }
   nav {
+    --border-color: oklch(80% 3% 200/40%);
     display: flex;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: oklch(80% 3% 200);
+    border-bottom-color: var(--border-color);
   }
   a {
     flex: 1;
@@ -29,6 +30,12 @@ body {
     text-align: center;
     padding: 0.5em;
     margin-bottom: 1ch;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    border-bottom: 2px solid var(--color-accent);
+    background-color: color-mix(in oklch,  var(--color-accent), canvas 85%);
+    margin-bottom: 0ch;
   }
   a.current {
     border-bottom-width: .4em;
@@ -57,8 +64,22 @@ body {
     color: #3498db;
     text-decoration: none;
   }
-  nav a:hover {
-    text-decoration: underline;
-    border-bottom: 2px solid var(--color-accent);
-    margin-bottom: 0;
+  .color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 80%;
+    font-family: inherit;
+    background: none;
+    color: inherit;
+  }
+  
+  .color-scheme select {
+    font-family: inherit;
+    font-size: 100%;
+    background: canvas;
+    color: canvastext;
+    border: 1px solid var(--border-color, currentColor);
+    border-radius: 4px;
+    padding: 0.25rem;
   }

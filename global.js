@@ -36,3 +36,26 @@ for (let p of pages) {
     // }
     nav.append(a);
   }
+
+  document.body.insertAdjacentHTML(
+    'afterbegin',
+    `
+    <label class="color-scheme">
+      Theme:
+      <select>
+        <option value="light dark">Automatic</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </label>
+  `
+  );
+  
+  // Step 4.4: Make the switcher actually change theme
+  let select = document.querySelector('.color-scheme select');
+  
+  select.addEventListener('input', function (event) {
+    let value = event.target.value;
+    console.log('color scheme changed to', value);
+    document.documentElement.style.setProperty('color-scheme', value);
+  });
