@@ -23,10 +23,10 @@ for (let p of pages) {
     let a = document.createElement('a');
     a.href = url;
     a.textContent = title;
-    console.log(a.host)
-    console.log(location.host)
-    console.log(a.pathname)
-    console.log(location.pathname)
+    console.log(a.host);
+    console.log(location.host);
+    console.log(a.pathname);
+    console.log(location.pathname);
     if (a.host === location.host && a.pathname === location.pathname) {
         a.classList.add('current');
     }
