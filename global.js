@@ -28,6 +28,7 @@ for (let p of pages) {
     if (a.host === location.host && a.pathname === location.pathname) {
         a.classList.add('current');
     }
+    console.log(a.href)
     nav.append(a);
   }
 
