@@ -29,7 +29,7 @@ for (let p of pages) {
         a.classList.add('current');
     }
     if (a.pathname=== "/zcochran27" || a.pathname === "https://github.com/zcochran27") {
-        a.target = "_blank"
+        a.target = "_blank";
     }
     nav.append(a);
   }
