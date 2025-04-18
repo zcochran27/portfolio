@@ -55,3 +55,18 @@ for (let p of pages) {
     console.log('color scheme changed to', value);
     document.documentElement.style.setProperty('color-scheme', value);
   });
+
+  select.addEventListener('input', function (event) {
+    let value = event.target.value;
+    console.log('color scheme changed to', value);
+    document.documentElement.style.setProperty('color-scheme', value);
+  
+    // Save to localStorage
+    localStorage.colorScheme = value;
+  });
+
+  if ("colorScheme" in localStorage) {
+    let saved = localStorage.colorScheme;
+    document.documentElement.style.setProperty('color-scheme', saved);
+    select.value = saved;
+  }
