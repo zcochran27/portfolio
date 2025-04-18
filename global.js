@@ -7,7 +7,7 @@ function $$(selector, context = document) {
 let pages = [
     { url: '', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
-    { url: 'contacts/', title: 'Contact' },
+    { url: 'contact/', title: 'Contact' },
     { url: 'resume/', title: 'Resume'},
     { url: 'https://github.com/zcochran27', title: 'GitHub' }];
 let nav = document.createElement('nav');
@@ -30,6 +30,7 @@ for (let p of pages) {
     if (a.host === location.host && a.pathname === location.pathname) {
         a.classList.add('current');
     }
+    a.toggleAttribute('target', a.host !== location.host);
     nav.append(a);
   }
 
