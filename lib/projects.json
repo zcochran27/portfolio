@@ -1,17 +1,17 @@
 [
     {
         "title": "DSC 106 Project 1",
-        "image": "../images/dsc106project1.png",
+        "image": "https://github.com/zcochran27/portfolio/blob/main/images/dsc106project1.png",
         "description": "In my visualization I chose a horizontal bar chart to show the average price of different food categories.We used a horizontal bar chart for the ease of reading the longer labels for the food categories. The visualization uses position on a common scale for readers to be able to read that whole foods bars are bigger than walmart and target for most food categories. Additionally, the bar chart is sorted by most expensive average prices to make it easier to read going down. Additionally, the brighter orange for walmart makes sure that you still notice where the bar is even though it is less than all the others and can note for readers that walmart generally has lower prices for all food categories. We used average for each food category as a way to summarize the general trend in food prices while maintaining a well known statistical metric. We used a groupby transformation to find the average of each store and food category combination to find trends for prices among both food category and store. We color coded the stores based on how each one can best be seen i.e. orange for walmart because it tends to be hidden in the rest of the data because it's generally smaller values and lighter colors for the other 2 to contrast from Walmart and again show difference in price."
     },
     {
         "title": "Basketball Shot Accuracy",
-        "image": "../images/basketballChart.jpg",
+        "image": "https://github.com/zcochran27/portfolio/blob/main/images/basketballChart.jpg",
         "description": "Shot accuracy comparison for different types of shots in Basketball"
     },
     {
         "title": "Soccer Opponent Chance Origination",
-        "image": "../images/chanceOrigins.png",
+        "image": "https://github.com/zcochran27/portfolio/blob/main/images/chanceOrigins.png",
         "description": "Collected data manually on where opponents chances (shots) originated and how for each opponent during the season. Plotted where each chance conceded started and how it started."
     },
     {
