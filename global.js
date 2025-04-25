@@ -92,6 +92,7 @@ for (let p of pages) {
     <img src="${proj.image}" alt="${proj.title}">
     <p>${proj.description}</p>`;
     containerElement.appendChild(article);});
-
-
+  }
+  export async function fetchGitHubData(username) {
+    return fetchJSON(`https://api.github.com/users/${username}`);
   }
