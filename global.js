@@ -89,7 +89,7 @@ for (let p of pages) {
     const article = document.createElement('article');
     article.innerHTML = `
     <h3>${proj.title}</h3>
-    <img src="${proj.image}" alt="${proj.title}">
+    <img src="${proj.image}" alt="${proj.title}" width = 600>
     <p>${proj.description}</p>`;
     containerElement.appendChild(article);});
   }
