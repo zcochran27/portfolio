@@ -76,3 +76,61 @@ body {
     border-radius: 4px;
     padding: 0.25rem;
   }
+  #projects-pie-plot {
+    max-width: 20em;
+    margin-block: 2em;
+  
+    overflow: visible;
+  }
+  .legend {
+    flex:1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    gap: 0.5rem 1rem;
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .swatch {
+    width: 1rem;
+    height: 1rem;
+    aspect-ratio: 1 / 1;
+    display: inline-block;
+    background: var(--color);
+    border-radius: 3px;
+  }
+  .container {
+    display: flex;
+    align-items: center; /* vertical alignment */
+    gap: 2rem;
+    max-width: 800px;
+    width: 100%;
+  }
+  &:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+  path {
+    transition: 300ms;
+    cursor: pointer;
+  }
+  .selected {
+    --color: oklch(60% 45% 0) !important;
+  }
+  .selected:is(path) {
+    fill: var(--color);
+  }
+  .selected:is(li) {
+    font-weight: bold;
+    background-color: #eee;
+  }

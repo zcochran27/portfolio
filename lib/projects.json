@@ -1,61 +1,73 @@
 [
     {
         "title": "DSC 106 Project 1",
+        "year":2025,
         "image": "https://raw.githubusercontent.com/zcochran27/portfolio/main/images/dsc106project1.png",
         "description": "In my visualization I chose a horizontal bar chart to show the average price of different food categories.We used a horizontal bar chart for the ease of reading the longer labels for the food categories. The visualization uses position on a common scale for readers to be able to read that whole foods bars are bigger than walmart and target for most food categories. Additionally, the bar chart is sorted by most expensive average prices to make it easier to read going down. Additionally, the brighter orange for walmart makes sure that you still notice where the bar is even though it is less than all the others and can note for readers that walmart generally has lower prices for all food categories. We used average for each food category as a way to summarize the general trend in food prices while maintaining a well known statistical metric. We used a groupby transformation to find the average of each store and food category combination to find trends for prices among both food category and store. We color coded the stores based on how each one can best be seen i.e. orange for walmart because it tends to be hidden in the rest of the data because it's generally smaller values and lighter colors for the other 2 to contrast from Walmart and again show difference in price."
     },
     {
         "title": "Basketball Shot Accuracy",
+        "year":2024,
         "image": "https://raw.githubusercontent.com/zcochran27/portfolio/main/images/basketballChart.jpg",
         "description": "Shot accuracy comparison for different types of shots in Basketball"
     },
     {
         "title": "Soccer Opponent Chance Origination",
+        "year":2024,
         "image": "https://raw.githubusercontent.com/zcochran27/portfolio/main/images/chanceOrigins.png",
         "description": "Collected data manually on where opponents chances (shots) originated and how for each opponent during the season. Plotted where each chance conceded started and how it started."
     },
     {
         "title": "Ex dolorem consequatur expedita.",
+        "year":2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Blanditiis quia asperiores laboriosam sit eos quisquam qui dolore est natus corrupti eius dolor quod provident enim ipsa aut voluptates possimus laudantium fugit, ea maiores quidem. Beatae obcaecati sit quidem?"
     },
     {
         "title": "Odio nemo atque dolore.",
+        "year":2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Soluta harum asperiores adipisci ullam, commodi quidem voluptas! Quasi officiis quae, accusamus atque veritatis quibusdam quidem itaque esse ea, nostrum debitis soluta aut dolor est, libero impedit excepturi alias! Maxime!"
     },
     {
         "title": "Inventore voluptatum alias modi?",
+        "year":2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Non, pariatur! Id doloremque sunt eos ut exercitationem quaerat, provident non odio officia iusto! Earum quod repellat in inventore nam sed ipsam asperiores, harum facere, ullam, eum neque! Consequatur, blanditiis."
     },
     {
         "title": "Tempora eaque modi rerum.",
+        "year":2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Reprehenderit excepturi, commodi ullam qui dolorem tempora iste. Amet dicta dolorem, optio excepturi in aspernatur iure vitae sint modi provident, repudiandae et velit earum eos molestias molestiae exercitationem animi. Blanditiis."
     },
     {
         "title": "Illo dolorum velit ipsam.",
+        "year":2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Ratione, ipsum quo pariatur nam, alias nisi neque eos atque ducimus architecto ipsa possimus nostrum veritatis ex, porro aspernatur aliquid? Aliquid dolorem minima quod, amet ipsa corrupti debitis repudiandae quos."
     },
     {
         "title": "Esse eos illum ratione!",
+        "year":2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Voluptatum eius quia officiis odit et inventore, aut deserunt. Provident, molestias rem. Cum cupiditate velit alias maiores aspernatur labore atque. Quaerat cupiditate quod beatae libero possimus sit asperiores veniam. Non."
     },
     {
         "title": "Tempore repudiandae doloremque in!",
+        "year":2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Praesentium facilis aperiam illum quo quia dolor, reprehenderit animi eum id repudiandae nihil vitae, adipisci suscipit odio possimus nobis qui alias similique ipsa necessitatibus ullam quae consequuntur fugit recusandae? Esse."
     },
     {
         "title": "Illo a doloribus corrupti?",
+        "year":2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Facilis minima quis modi mollitia odit maiores tempore distinctio aliquam quas adipisci molestias ducimus pariatur, at, ipsam unde tenetur quaerat perferendis soluta rem incidunt nobis sequi enim. Ipsam, amet repellat."
     },
     {
         "title": "Unde iste similique cumque!",
+        "year":2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Atque temporibus distinctio, quos doloribus incidunt eaque deleniti quod dolore at excepturi. Repellendus dolores, a facilis itaque sunt unde aliquid similique. Eveniet ea hic est quos id veniam vel perferendis!"
     }
