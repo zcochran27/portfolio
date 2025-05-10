@@ -88,3 +88,94 @@ a.current {
   margin: 0;
   grid-row: 2;
 }
+.stats {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 2rem;
+}
+
+.stats dl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.stats dt {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.stats dd {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #222;
+}
+.gridlines line {
+  stroke: #ccc;
+  stroke-opacity: 0.5;
+  shape-rendering: crispEdges;
+}
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 1rem;
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  z-index: 1000;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tooltip {
+  pointer-events: none;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8;
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
