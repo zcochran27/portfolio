@@ -32,6 +32,11 @@
     </dl>
     <p id="selection-count">No commits selected</p>
     <dl id="language-breakdown" class="stats"></dl>
-
+    <div style="display: flex; align-items: baseline; gap: 1em; margin-bottom: 1em;">
+        <label for="commit-progress">Show commits until:</label>
+        <input type="range" id="commit-progress" min="0" max="100" value="100" style="flex: 1;">
+        <time id="commit-time-slide" style="margin-left: auto;">Loading...</time>
+    </div>
+</div>
 </body>
 </html>

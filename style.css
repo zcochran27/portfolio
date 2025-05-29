@@ -157,6 +157,8 @@ circle {
   transition: 200ms;
   transform-origin: center;
   transform-box: fill-box;
+  transition: all 200ms ease, r calc(var(--r) * 100ms);
+  @starting-style {r: 0;}
 }
 
 circle:hover {
